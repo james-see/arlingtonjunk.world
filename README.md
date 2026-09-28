@@ -20,7 +20,7 @@ python3 -m http.server 8000
 
 - Testimonial quotes (marked "Sample quote" in `index.html`)
 - `$99` starting price — confirm your minimum before launch
-- Service-area line ("close-in Falls Church and Alexandria on request") — trim if Arlington-only
+- Service area: NoVA (Arlington/Fairfax/Loudoun + Alexandria), DC, Potomac MD — matches listings
 
 ## Domains
 

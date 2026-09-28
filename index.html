@@ -37,8 +37,9 @@ tailwind.config = {
   "telephone": "+1-571-516-6949",
   "email": "arlingtonjunkmaster@pm.me",
   "priceRange": "$99+",
-  "address": { "@type": "PostalAddress", "addressLocality": "Arlington", "addressRegion": "VA", "addressCountry": "US" },
-  "areaServed": "Arlington, VA"
+  "address": { "@type": "PostalAddress", "addressLocality": "Arlington", "addressRegion": "VA", "postalCode": "22207", "addressCountry": "US" },
+  "areaServed": ["Arlington County, VA", "Fairfax County, VA", "Loudoun County, VA", "Alexandria, VA", "Washington, DC", "Potomac, MD"],
+  "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "00:00", "closes": "23:59" }
 }
 </script>
 <script type="application/ld+json">
@@ -47,11 +48,11 @@ tailwind.config = {
   "@type": "FAQPage",
   "mainEntity": [
     {"@type": "Question", "name": "How much does junk removal cost?", "acceptedAnswer": {"@type": "Answer", "text": "Single items start at $99. Send a photo for a flat upfront price — most full loads run a few hundred dollars depending on volume."}},
-    {"@type": "Question", "name": "How fast can you come?", "acceptedAnswer": {"@type": "Answer", "text": "Same-week pickup across Arlington in most cases. Call or text (571) 516-6949 and we'll find the earliest slot."}},
+    {"@type": "Question", "name": "How fast can you come?", "acceptedAnswer": {"@type": "Answer", "text": "Same-week pickup in most cases, and we're open 24 hours for bookings. Call or text (571) 516-6949 anytime and we'll find the earliest slot."}},
     {"@type": "Question", "name": "Do I need to move everything to the curb?", "acceptedAnswer": {"@type": "Answer", "text": "No. Point at it where it sits — we do all the lifting, loading, and sweeping up."}},
     {"@type": "Question", "name": "What won't you take?", "acceptedAnswer": {"@type": "Answer", "text": "Hazardous materials like paint, chemicals, fuel, and asbestos. Almost everything else is fair game — just ask."}},
     {"@type": "Question", "name": "What happens to my junk?", "acceptedAnswer": {"@type": "Answer", "text": "We donate what we can, recycle what we can't donate, and dispose of the rest responsibly."}},
-    {"@type": "Question", "name": "Do you serve my neighborhood?", "acceptedAnswer": {"@type": "Answer", "text": "All of Arlington, VA — Clarendon to Shirlington and everywhere between — plus close-in Falls Church and Alexandria on request."}}
+    {"@type": "Question", "name": "Do you serve my neighborhood?", "acceptedAnswer": {"@type": "Answer", "text": "We're based in Arlington and serve all of Northern Virginia — Arlington, Fairfax, and Loudoun counties plus Alexandria — as well as Washington, DC and Potomac, Maryland."}}
   ]
 }
 </script>
@@ -211,7 +212,7 @@ tailwind.config = {
     </details>
     <details class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-xl p-5">
       <summary class="font-bold cursor-pointer">How fast can you come?</summary>
-      <p class="mt-2 text-stone-600 dark:text-stone-300">Same-week pickup across Arlington in most cases. Call or text (571) 516-6949 and we&rsquo;ll find the earliest slot.</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-300">Same-week pickup in most cases, and we&rsquo;re open 24 hours for bookings. Call or text (571) 516-6949 anytime and we&rsquo;ll find the earliest slot.</p>
     </details>
     <details class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-xl p-5">
       <summary class="font-bold cursor-pointer">Do I need to move everything to the curb?</summary>
@@ -227,7 +228,7 @@ tailwind.config = {
     </details>
     <details class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-xl p-5">
       <summary class="font-bold cursor-pointer">Do you serve my neighborhood?</summary>
-      <p class="mt-2 text-stone-600 dark:text-stone-300">All of Arlington &mdash; Clarendon to Shirlington and everywhere between &mdash; plus close-in Falls Church and Alexandria on request.</p>
+      <p class="mt-2 text-stone-600 dark:text-stone-300">We&rsquo;re based in Arlington and serve all of Northern Virginia &mdash; Arlington, Fairfax, and Loudoun counties plus Alexandria &mdash; as well as Washington, DC and Potomac, Maryland.</p>
     </details>
   </div>
 </section>
